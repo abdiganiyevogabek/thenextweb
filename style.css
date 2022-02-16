@@ -32,3 +32,16 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+  .tech-conference-link {
+  background-color: #FFDD33;
+  text-decoration: none;
+}
+
+.conference-link {
+  padding: 10px 30px;
+}
+
+.tech-2022{
+  text-decoration: none;
+}
