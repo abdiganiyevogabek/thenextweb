@@ -136,7 +136,6 @@
 }
 
 .latest-ctn {
-  height: 80vh;
   margin: 40px auto;
 }
 
@@ -186,4 +185,24 @@
 
 .link-title p {
   margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  padding: 14px 24px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-color: #CC0099;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+
+.button-link:hover {
+  cursor: pointer;
+  background-color: #ca1e9f;
 }
