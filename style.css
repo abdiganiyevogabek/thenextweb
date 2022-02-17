@@ -100,7 +100,7 @@
 .most-popular {
   display: flex;
   justify-content: space-around;
-  padding: 5px 20px;
+  padding-left: 20px;
 }
 
 .most-popular-links {
@@ -116,7 +116,7 @@
   width: 93%;
   font-size: 19px;
   font-weight: 540;
-  padding: 10px 0;
+  padding: 14px 0;
 }
 
 .parag3,
@@ -130,5 +130,60 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(228, 167, 167);
+  text-decoration-thickness: 2px;
+}
+
+.latest-ctn {
+  height: 80vh;
+  margin: 40px auto;
+}
+
+.latest-parag {
+  font-size: 21px;
+  font-weight: bold;
+  justify-content: center;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.latest-image {
+  width: 280px;
+  height: 160px;
+}
+
+.latest-divs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 93%;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.latest-divs-links {
+  width: 23%;
+  margin: 12px;
+}
+
+.latest-link {
+  width: 91%;
+  font-size: 16px;
+  margin-top: 4px;
+  font-family: Graphic, sans-serif;
+  line-height: 24px;
+}
+
+.link-title {
+  font-size: 12px;
+  text-decoration: none;
+  color: #A7AAB2;
+}
+
+.link-title:hover {
+  color: #000000;
+}
+
+.link-title p {
+  margin-top: 10px;
 }
