@@ -28,9 +28,10 @@
   justify-self: flex-start;
   position: absolute;
   left: 20px;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   text-decoration: none;
+  color: black;
 }
 
   .tech-conference-link {
@@ -44,46 +45,170 @@
 
 .tech-2022{
   text-decoration: none;
+  font-size: 15px;
+  color: black;
 }
 
 .landing-page {
-  height: 500px;
+  height: 650px;
   display: flex;
-  border: 1px solid blue;
   padding: 15px 20px;
 }
 
-.article-ctn1,
+.article-ctn1 {
+  flex: 1;
+  margin-right: 6px;
+}
 .article-ctn2 {
-  border: 1px solid red;
   flex: 1;
 }
 
-.main-article {
-  height: 70%;
-  background-color: #FFDD33;
+.main-article,
+.top-article2 { 
+  height: 60%;
+  background-image: url(./metaverse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.main-article-div,
+.main-article-div2 {
+  height: 100%;
+  background-image: linear-gradient(180deg,transparent 0,#000);
+}
+
+.main-article-a,
+.main-article-a2 {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.link-div,
+.link-div2 {
+  position: absolute;
+  width: 90%;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.main-article-p,
+.main-article-p2 {
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
 }
 
 .tickets-link {
-  height: 30%;
-  background-color: #0bDD57;
+  height: 40%;
+  background-image: url(./image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.tickets-div {
+  height: 100%;
+  background-image: linear-gradient(180deg,transparent 0,#000);
+}
+
+.tickets-parag1,
+.tickets-parag2 {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-top: 20px;
+  width: 90%;
+}
+
+.tickets-parag2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.button-l {
+  background-color: #ca1e9f;
+  padding: 13px 24px;
+  font-size: 17px;
+  border: none;
+  font-weight: normal;
+  border-radius: 25px;
+  color: white;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.button-l:hover {
+  cursor: pointer;
+  background-color: #9e0277;
 }
 
 .top-article1 {
-  height: 50%;
-  background-color: firebrick;
+  height: 37%;
   display: flex;
+  margin-bottom: 6px;
+  cursor: pointer;
 }
 
 .top-article2 {
-  height: 50%;
-  background-color: darkorange;
+  height: 63%;
+  background-image: url(./neural.jpg);
+  background-position: center;
+  cursor: pointer;
 }
 
 .inner-top-article1,
 .inner-top-article2 {
   flex: 1;
-  border: 2px solid aqua;
+}
+
+.inner-top-article1,
+.inner-top-article2 {
+  background-image: url(./evs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  margin-right: 6px;
+}
+
+.inner-top-article2 {
+  background-image: url(./google.jpg);
+}
+
+.inner-top-article1 div,
+.inner-top-article2 div {
+  height: 100%;
+  background-image: linear-gradient(180deg,transparent 0,#000);
+}
+
+.paragraph1, 
+.paragraph2 {
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 48%;
+  font-size: 12px;
+}
+
+.parag-top-article1,
+.parag-top-article2 {
+  color: white;
+  width: 90%;
+  font-size: 23px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
 
 .popular-stories {
@@ -193,8 +318,8 @@
 }
 
 .button button {
-  padding: 14px 24px;
-  font-size: 18px;
+  padding: 14px 25px;
+  font-size: 16px;
   border-radius: 25px;
   background-color: #CC0099;
   border: none;
@@ -204,7 +329,7 @@
 
 .button-link:hover {
   cursor: pointer;
-  background-color: #ca1e9f;
+  background-color: #c753aa;
 }
 
 .contact {
@@ -239,13 +364,31 @@
 }
 
 .form {
-  width: 55%;
+  width: 100%;
   padding: 15px;
   font-size: 16px;
   border-radius: 8px;
   border: none;
   /* background-color: #9E40B2; */
   margin: 10px 0;
+}
+
+.form-in {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.form-in div {
+  position: relative;
+}
+
+.ok {
+  position: absolute;
+  right: 15px;
+  color: black;
+  top: 40%;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .icon {
