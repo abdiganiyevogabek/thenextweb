@@ -206,3 +206,60 @@
   cursor: pointer;
   background-color: #ca1e9f;
 }
+
+.contact {
+  height: 360px;
+  background-color: rgb(101, 0, 110);
+  margin: 100px auto;
+  /* display: flex; */
+  text-align: center;
+}
+
+.paragraph-title {
+  font-size: 44px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+.link-paragr {
+  color: white;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.link-paragr a {
+  color: #00CCAF;
+  text-decoration: none;
+}
+
+.link-paragr a:hover {
+  color: white;
+}
+
+.form {
+  width: 55%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  /* background-color: #9E40B2; */
+  margin: 10px 0;
+}
+
+.icon {
+  margin: 18px 0;
+}
+
+.icon-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+
+.icon-image:hover {
+  background-color: white;
+}
