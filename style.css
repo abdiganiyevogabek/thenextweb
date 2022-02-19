@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -184,6 +185,7 @@
 
 .inner-top-article2 {
   background-image: url(./google.jpg);
+  margin-right: 0;
 }
 
 .inner-top-article1 div,
@@ -327,6 +329,12 @@
   color: white;
 }
 
+
+::placeholder {
+  color: white;
+  opacity: 0.4;
+}
+
 .button-link:hover {
   cursor: pointer;
   background-color: #c753aa;
@@ -341,7 +349,7 @@
 }
 
 .paragraph-title {
-  font-size: 44px;
+  font-size: 42px;
   color: white;
   font-family: sans-serif;
   font-weight: bold;
@@ -350,7 +358,7 @@
 
 .link-paragr {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px 0;
 }
 
@@ -369,12 +377,12 @@
   font-size: 16px;
   border-radius: 8px;
   border: none;
-  /* background-color: #9E40B2; */
+  background-color: rgba(177, 177, 177, 0.5);
   margin: 10px 0;
 }
 
 .form-in {
-  width: 55%;
+  width: 53%;
   margin: 0 auto;
 }
 
@@ -385,8 +393,8 @@
 .ok {
   position: absolute;
   right: 15px;
-  color: black;
-  top: 40%;
+  color: white;
+  top: 35%;
   text-decoration: none;
   font-size: 18px;
 }
@@ -400,9 +408,213 @@
   height: 28px;
   border-radius: 5px;
   border: none;
-  margin: 10px;
+  margin: 8px;
 }
 
 .icon-image:hover {
   background-color: white;
+}
+
+.middle-div-ctn {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.middle-div-ctn div {
+}
+
+.float-left {
+  flex: 1;
+}
+
+.float-right {
+  width: 95%;
+  height: inherit;
+  border-top: 1px solid rgb(199, 199, 199);
+  margin-bottom: 70px;
+}
+
+.float-right-header {
+  display: flex;
+  justify-content: end;
+}
+
+.float-right-header p {
+  font-size: 22px;
+  padding: 50px 0;
+}
+
+.float-right-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apple-network,
+.social-network {
+  width: 49%;
+}
+
+.social-network {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+.apple-network {
+  display: flex;
+  flex-direction: column; 
+}
+
+.apple-image {
+  width: 410px;
+}
+
+.apple-link1 {
+  font-size: 13px;
+  color: #A7AAB2;
+  margin-top: 14px;
+  text-decoration: none;
+}
+
+.apple-link1:hover {
+  color: black;
+}
+
+.apple-link2 {
+  font-size: 20px;
+  margin-top: 4px;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.apple-link2:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #BCDDFF;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.apple-network p {
+  font-size: 15px;
+  color: #505666;
+  margin-top: 10px;
+}
+
+.social-network-twitter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-links {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+}
+
+.phone {
+  width: 26%;
+}
+
+.link1 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #7C808C;
+}
+
+.link1:hover {
+  color: black;
+}
+
+.link2 {
+  font-size: 15px;
+  line-height: 22px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link2:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #BCDDFF;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.image-fixed {
+  width: 300px;
+}
+
+.you-tube-ctn {
+  background-color: #F7F8F8;
+  height: 600px;
+  padding: 20px 0;
+}
+
+.yt-ctn {
+  width: 90%;
+  margin: 30px auto;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yt-ctn-left,
+.yt-ctn-right {
+  height: inherit;
+  border: 2px solid red ;
+}
+
+.yt-ctn-left {
+  width: 74%;
+}
+
+.yt-ctn-right {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ctn-right-div {
+  border: 2px solid green;
+  height: 30%;
+}
+
+.elements-link {
+  border: 1px solid darkorange;
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+}
+
+.work-us,
+.elements {
+  width: 49%;
+  border: 1px solid lawngreen;
+}
+
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.element {
+  border: 1px solid red;
+  width: 50%;
+}
+
+.company-links {
+  width: 80%;
+  margin: 10px auto;
+  border: 2px solid lawngreen;
+  height: 50px;
+} 
+
+.company-link {
+  width: 8%;
 }
