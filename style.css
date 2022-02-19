@@ -574,6 +574,7 @@
 }
 
 .yt-ctn-left {
+  width: 74%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -595,10 +596,6 @@
 .data {
   font-size: 12px;
   color: #A7AAB2;
-}
-
-.yt-ctn-left {
-  width: 74%;
 }
 
 .yt-ctn-right {
@@ -626,26 +623,76 @@
 }
 
 .elements-link {
-  border: 1px solid darkorange;
   display: flex;
-  height: 500px;
+  height: 450px;
   justify-content: space-between;
 }
 
 .work-us,
 .elements {
   width: 49%;
-  border: 1px solid lawngreen;
+  cursor: context-menu;
+}
+
+.work-us {
+  margin-left: 55px;
+}
+
+.work-us-parag1 {
+  color: #D83BB1;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 90px 0 5px 0;
+}
+
+.work-us-parag2 {
+  font-size: 31px;
+  font-weight: 900;
+}
+
+.work-us-parag3 {
+  margin-top: 22px;
+  font-size: 18px;
+  color: #6E7380;
+  word-spacing: 2px;
+  line-height: 28px;
+  font-family: Gaphic, sans-serif;
+}
+
+.work-us-button {
+  font-size: 16px;
+  padding: 14px 22px;
+  border-radius: 4px;
+  background-color: #00CCCC;
+  color: white;
+  border: none;
+  margin: 30px 0;
+}
+
+.work-us-button:hover {
+  background-color: #48dada;
+  cursor: pointer;
 }
 
 .elements {
   display: flex;
   flex-wrap: wrap;
+  height: 290px;
+  margin-top: 90px;
+  margin-right: 30px;
 }
 
 .element {
-  border: 1px solid red;
   width: 50%;
+  display: flex;
+  align-items: center;
+  cursor: context-menu;
+}
+
+.element-image {
+  width: 110px;
+  height: 110px;
+  margin-right: 15px;
 }
 
 .company-links {
