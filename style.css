@@ -696,12 +696,18 @@
 }
 
 .company-links {
-  width: 80%;
-  margin: 10px auto;
-  border: 2px solid lawngreen;
-  height: 50px;
+  width: 85%;
+  margin: 20px auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 } 
 
 .company-link {
-  width: 8%;
+  width: 12%;
+  opacity: 0.6;
+}
+
+.company-link:hover {
+opacity: 1;
 }
