@@ -517,6 +517,7 @@
 
 .phone {
   width: 26%;
+  cursor: pointer;
 }
 
 .link1 {
@@ -660,8 +661,8 @@
 }
 
 .work-us-button {
-  font-size: 16px;
-  padding: 14px 22px;
+  font-size: 15px;
+  padding: 13px 24px;
   border-radius: 4px;
   background-color: #00CCCC;
   color: white;
@@ -710,4 +711,102 @@
 
 .company-link:hover {
 opacity: 1;
+}
+
+.information-tnw {
+  height: 70vh;
+  background-color: #000;
+}
+
+.information-tnw-div1 {
+  height: 66%;
+  display: flex;
+}
+
+.link-wp {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.div {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.tnw-icon {
+  background-color: #505666;
+  width: fit-content;
+  height: 42px;
+  border-radius: 8px;
+  margin-left: 70px;
+  margin-top: 45px;
+}
+
+.tnw-div1-logo p {
+  color: white;
+  font-size: 25px;
+}
+
+
+.tnw-div1-logo,
+.tnw-div1-menu {
+  width: 50%;
+}
+
+.tnw-div1-menu {
+  display: flex;
+}
+
+.more-tnw h3,
+.about-tnw h3 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.more-tnw a,
+.about-tnw a {
+  color: #00CCCC ;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.more-tnw a:hover,
+.about-tnw a:hover {
+  text-decoration: underline;
+  text-decoration-color: #00CCCC;
+  text-underline-offset: 2px;
+}
+
+.more-tnw p,
+.about-tnw p {
+  margin-top: 4px;
+}
+
+.more-tnw,
+.about-tnw {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.information-tnw-div2 {
+  height: 34%;
+  padding-top: 35px;
+  border-top: 1px solid #A7AAB2;
+}
+
+.information-tnw-div2 p {
+  color: #A7AAB2;
+  font-size: 13px;
+  text-align: center;
+}
+
+.tnw-div2-link {
+  color: white;
+  text-decoration: none;
+}
+
+.tnw-div2-link:hover {
+  color: #CC0099;
 }
